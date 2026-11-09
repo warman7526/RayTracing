@@ -1,0 +1,14 @@
+C:\Users\harry\OneDrive - University of Edinburgh\Year1\RayTracing\RT1W-1\RT1W\RT1W\bin\Debug\net10.0\RT1W.exe
+C:\Users\harry\OneDrive - University of Edinburgh\Year1\RayTracing\RT1W-1\RT1W\RT1W\bin\Debug\net10.0\RT1W.deps.json
+C:\Users\harry\OneDrive - University of Edinburgh\Year1\RayTracing\RT1W-1\RT1W\RT1W\bin\Debug\net10.0\RT1W.runtimeconfig.json
+C:\Users\harry\OneDrive - University of Edinburgh\Year1\RayTracing\RT1W-1\RT1W\RT1W\bin\Debug\net10.0\RT1W.dll
+C:\Users\harry\OneDrive - University of Edinburgh\Year1\RayTracing\RT1W-1\RT1W\RT1W\bin\Debug\net10.0\RT1W.pdb
+C:\Users\harry\OneDrive - University of Edinburgh\Year1\RayTracing\RT1W-1\RT1W\RT1W\obj\Debug\net10.0\RT1W.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\harry\OneDrive - University of Edinburgh\Year1\RayTracing\RT1W-1\RT1W\RT1W\obj\Debug\net10.0\RT1W.AssemblyInfoInputs.cache
+C:\Users\harry\OneDrive - University of Edinburgh\Year1\RayTracing\RT1W-1\RT1W\RT1W\obj\Debug\net10.0\RT1W.AssemblyInfo.cs
+C:\Users\harry\OneDrive - University of Edinburgh\Year1\RayTracing\RT1W-1\RT1W\RT1W\obj\Debug\net10.0\RT1W.csproj.CoreCompileInputs.cache
+C:\Users\harry\OneDrive - University of Edinburgh\Year1\RayTracing\RT1W-1\RT1W\RT1W\obj\Debug\net10.0\RT1W.dll
+C:\Users\harry\OneDrive - University of Edinburgh\Year1\RayTracing\RT1W-1\RT1W\RT1W\obj\Debug\net10.0\refint\RT1W.dll
+C:\Users\harry\OneDrive - University of Edinburgh\Year1\RayTracing\RT1W-1\RT1W\RT1W\obj\Debug\net10.0\RT1W.pdb
+C:\Users\harry\OneDrive - University of Edinburgh\Year1\RayTracing\RT1W-1\RT1W\RT1W\obj\Debug\net10.0\RT1W.genruntimeconfig.cache
+C:\Users\harry\OneDrive - University of Edinburgh\Year1\RayTracing\RT1W-1\RT1W\RT1W\obj\Debug\net10.0\ref\RT1W.dll
