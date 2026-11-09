@@ -1,6 +1,6 @@
 ﻿namespace RT1W
 {
-    class Program
+    public class Program
     {
         public static void Main(string[] args)
         {
@@ -13,15 +13,13 @@
                 Console.Error.WriteLine("Scanlines remaining: "+ (image_height-j)+"/"+image_height);
                 for (int i = 0; i < image_width; i++)
                 {
-                    double r = (double)i / (image_width - 1);
+                    double b = (double)i / (image_width - 1);
                     double g = (double)j / (image_height - 1);
-                    double b = 1-((double)(i+j) / (image_height - 1) * 0.5);
+                    double r = 1-((double)(i+j) / (image_height - 1) * 0.5);
 
-                    int ir = (int)(255.999 * r);
-                    int ig = (int)(255.999 * g);
-                    int ib = (int)(255.999 * b);
+                    Vec3 colour = new Vec3(r, g, b);
 
-                    Console.WriteLine(ir + " " + ig + " " + ib);
+                    Console.WriteLine(colour.PixelString());
                 }
             }
             Console.Error.WriteLine("Done!");

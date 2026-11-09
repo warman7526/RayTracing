@@ -1,6 +1,6 @@
 import pygame
 
-TARGET = "./bin/Debug/net10.0/img2.ppm"
+TARGET = "./bin/Debug/net10.0/img3.ppm"
 SCALE = 1
 
 with open(TARGET,"r") as f:
@@ -20,9 +20,9 @@ SCALE = max(round(600/min(WIDTH,HEIGHT),1),1)
 
 pygame.init()
 
-pygame.display.set_caption(f"[{WIDTH}x{HEIGHT}] ({TARGET})")
 
 def redraw():
+    pygame.display.set_caption(f"[{WIDTH}x{HEIGHT}@{SCALE*100:.0f}%] ({TARGET})")
     screen = pygame.display.set_mode((WIDTH*SCALE,HEIGHT*SCALE))
     for index,col in enumerate(PIXELS):
         x = (index % WIDTH) * SCALE
@@ -38,8 +38,12 @@ while True:
             quit()
         elif event.type == pygame.KEYUP:
             if event.key == pygame.K_UP:
-                SCALE += 0.1
+                SCALE += 0.07
             elif event.key == pygame.K_DOWN:
-                            SCALE -= 0.1
+                SCALE -= 0.07
+            elif event.key == pygame.K_0:
+                SCALE = 1
+            elif event.key == pygame.K_r:
+                SCALE = max(round(600/min(WIDTH,HEIGHT),1),1)
             redraw()
 

@@ -5,8 +5,10 @@ using System.Text;
 
 namespace RT1W
 {
-    internal class Vec3
+    public class Vec3
     {
+
+        public static Vec3 zero = new Vec3();
         public double[] values;
 
         public Vec3()
@@ -68,6 +70,7 @@ namespace RT1W
                 v.values[2] * t
                 );
         }
+        public static Vec3 operator *(double t, Vec3 v) { return v * t; }
         public static Vec3 operator *(Vec3 v1, Vec3 v2)
         {
             return new Vec3(
@@ -124,5 +127,16 @@ namespace RT1W
             return this / this.length();
         }
 
+        public string PixelString()
+        {
+            int ir = (int)(255.999 * x());
+            int ig = (int)(255.999 * y());
+            int ib = (int)(255.999 * z());
+
+            return $"{ir} {ig} {ib}";
+        }
+
     }
+
+   
 }

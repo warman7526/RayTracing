@@ -12,3 +12,4 @@ C:\Users\harry\OneDrive - University of Edinburgh\Year1\RayTracing\RT1W-1\RT1W\R
 C:\Users\harry\OneDrive - University of Edinburgh\Year1\RayTracing\RT1W-1\RT1W\RT1W\obj\Debug\net10.0\RT1W.pdb
 C:\Users\harry\OneDrive - University of Edinburgh\Year1\RayTracing\RT1W-1\RT1W\RT1W\obj\Debug\net10.0\RT1W.genruntimeconfig.cache
 C:\Users\harry\OneDrive - University of Edinburgh\Year1\RayTracing\RT1W-1\RT1W\RT1W\obj\Debug\net10.0\ref\RT1W.dll
+C:\Users\harry\OneDrive - University of Edinburgh\Year1\RayTracing\RT1W-1\RT1W\RT1W\obj\Debug\net10.0\RT1W.sourcelink.json
