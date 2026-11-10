@@ -9,6 +9,25 @@ namespace RT1W
     {
 
         public static Vec3 zero = new Vec3();
+        public static Vec3 one = new Vec3(1,1,1);
+        public static Vec3 up = new Vec3(0,1,0);
+        public static Vec3 down = new Vec3(0,-1,0);
+        public static Vec3 right = new Vec3(1, 0, 0);
+        public static Vec3 left = new Vec3(-1, 0, 0);
+        public static Vec3 forward = new Vec3(0, 0, 1);
+        public static Vec3 back = new Vec3(0, 0, -1);
+        public static class Colour
+        {
+            public static readonly Vec3 white = new Vec3(1, 1, 1);
+            public static readonly Vec3 black = new Vec3(0, 0, 0);
+            public static readonly Vec3 red = new Vec3(1, 0, 0);
+            public static readonly Vec3 green = new Vec3(0, 1, 0);
+            public static readonly Vec3 blue = new Vec3(0, 0, 1);
+            public static readonly Vec3 yellow = new Vec3(1, 1, 0);
+            public static readonly Vec3 cyan = new Vec3(0, 1, 1);
+            public static readonly Vec3 magenta = new Vec3(1, 0, 1);
+            public static readonly Vec3 sky = new Vec3(0.3, 0.55, 0.9);
+        }
         public double[] values;
 
         public Vec3()
@@ -134,6 +153,11 @@ namespace RT1W
             int ib = (int)(255.999 * z());
 
             return $"{ir} {ig} {ib}";
+        }
+
+        public static Vec3 Lerp(Vec3 v1, Vec3 v2, double t)
+        {
+            return (v1 * t) + (v2 * (1 - t));
         }
 
     }

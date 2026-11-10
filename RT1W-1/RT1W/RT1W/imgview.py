@@ -1,6 +1,6 @@
 import pygame
 
-TARGET = "./bin/Debug/net10.0/img3.ppm"
+TARGET = "./bin/Debug/net10.0/res/sky1.ppm"
 SCALE = 1
 
 with open(TARGET,"r") as f:
@@ -16,13 +16,13 @@ with open(TARGET,"r") as f:
         print("inconsistent dimensions")
         quit()
 
-SCALE = max(round(600/min(WIDTH,HEIGHT),1),1)
+SCALE = max(round(600/min(WIDTH,HEIGHT),1),0.1)
 
 pygame.init()
 
 
 def redraw():
-    pygame.display.set_caption(f"[{WIDTH}x{HEIGHT}@{SCALE*100:.0f}%] ({TARGET})")
+    pygame.display.set_caption(f"[{WIDTH}x{HEIGHT}@{SCALE*100:.1f}%] ({TARGET})")
     screen = pygame.display.set_mode((WIDTH*SCALE,HEIGHT*SCALE))
     for index,col in enumerate(PIXELS):
         x = (index % WIDTH) * SCALE
@@ -38,9 +38,13 @@ while True:
             quit()
         elif event.type == pygame.KEYUP:
             if event.key == pygame.K_UP:
-                SCALE += 0.07
+                SCALE *= 40/37
             elif event.key == pygame.K_DOWN:
-                SCALE -= 0.07
+                SCALE *= 37/40
+            elif event.key == pygame.K_LEFT:
+                SCALE -= 0.05
+            elif event.key == pygame.K_RIGHT:
+                SCALE += 0.05
             elif event.key == pygame.K_0:
                 SCALE = 1
             elif event.key == pygame.K_r:
