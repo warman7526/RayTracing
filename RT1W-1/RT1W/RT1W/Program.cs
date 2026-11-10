@@ -4,13 +4,16 @@
     {
         public static void Main(string[] args)
         {
-            int image_width = 256;
-            int image_height = 256;
+            int image_width = 512;
+            int image_height = 512;
 
             Console.Write("P3\n" + image_width + " " + image_height + "\n255\n");
 
             for (int j = 0; j < image_height; j++) {
-                Console.Error.WriteLine("Scanlines remaining: "+ (image_height-j)+"/"+image_height);
+                int progbarlen = 36;
+                int progi = j * progbarlen / image_height+1;
+                string progs = new string('#', progi) + new string('_', progbarlen - progi);
+                Console.Error.Write("\rRendering: "+progs+" "+(j+1)+"/"+image_height);
                 for (int i = 0; i < image_width; i++)
                 {
                     double b = (double)i / (image_width - 1);
@@ -22,9 +25,7 @@
                     Console.WriteLine(colour.PixelString());
                 }
             }
-            Console.Error.WriteLine("Done!");
-
-
+            Console.Error.WriteLine("\nDone!");
         }
     }
 }
