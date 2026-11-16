@@ -54,7 +54,7 @@
             for (int j = 0; j < image_height; j++) {
 
                 //progress bar
-                int progbarlen = 64;
+                int progbarlen = 72;
                 int progi = j * progbarlen / image_height+1;
                 string progs = new string('#', progi) + new string(' ', progbarlen - progi);
                 Console.Error.Write("\rRendering: ["+progs+"] "+(j+1)+"/"+image_height);
