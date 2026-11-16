@@ -27,6 +27,11 @@ namespace RT1W
             public static readonly Vec3 cyan = new Vec3(0, 1, 1);
             public static readonly Vec3 magenta = new Vec3(1, 0, 1);
             public static readonly Vec3 sky = new Vec3(0.3, 0.55, 0.9);
+
+            public static Vec3 FromNormal(Vec3 vec)
+            {
+                return 0.5 * (vec.UnitVector() + Vec3.one);
+            }
         }
         public double[] values;
 

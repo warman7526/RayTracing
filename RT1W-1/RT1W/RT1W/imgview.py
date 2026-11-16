@@ -1,6 +1,6 @@
 import pygame
 
-TARGET = "./bin/Debug/net10.0/res/sky1.ppm"
+TARGET = "./bin/Debug/net10.0/res/sky+ball5.ppm"
 SCALE = 1
 
 with open(TARGET,"r") as f:
@@ -50,4 +50,3 @@ while True:
             elif event.key == pygame.K_r:
                 SCALE = max(round(600/min(WIDTH,HEIGHT),1),1)
             redraw()
-
