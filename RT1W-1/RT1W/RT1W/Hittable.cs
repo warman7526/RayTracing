@@ -6,7 +6,7 @@ namespace RT1W
 {
     public class Hittable
     {
-        virtual public HitRecord? Hit(Ray ray, double t_min, double t_max)
+        virtual public HitRecord? Hit(Ray ray, Interval range)
         {
             return null;
         }

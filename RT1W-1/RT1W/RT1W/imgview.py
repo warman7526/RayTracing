@@ -1,6 +1,6 @@
 import pygame
 
-TARGET = "./bin/Debug/net10.0/res/sky+ball5.ppm"
+TARGET = f"./bin/Debug/net10.0/res/{input("imgname>>")}.ppm"
 SCALE = 1
 
 with open(TARGET,"r") as f:

@@ -15,7 +15,7 @@ namespace RT1W
             this.radius = Math.Max(0,radius);
         }
 
-        public override HitRecord? Hit(Ray ray, double t_min, double t_max)
+        public override HitRecord? Hit(Ray ray, Interval range)
         {
             // using vector eq. of a sphere: (C-P).(C-P) = r2 rearranged,
             // a quadratic can be formed where the discriminant relates to
@@ -37,10 +37,10 @@ namespace RT1W
             //otherwise return the intersection point
             double sqrtd = Math.Sqrt(delta);
             double root = (h - sqrtd) / a; // try -ve root first as this is "infront" of the +ve
-            if(root <= t_min || root >= t_max)
+            if(!range.Surrounds(root))
             {
                 root = (h +  sqrtd) / a;
-                if (root <= t_min || root >= t_max)
+                if (!range.Surrounds(root))
                 {
                     return null;
                 }

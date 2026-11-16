@@ -16,17 +16,17 @@ namespace RT1W
             objs.Add(obj);
         }
 
-        public override HitRecord? Hit(Ray ray, double t_min, double t_max)
+        public override HitRecord? Hit(Ray ray, Interval range)
         {
             HitRecord? res = null;
-            double closest = t_max;
+            Interval valid_t = range;
             HitRecord? temp;
 
             //loop over each object and check if it hits, and keep track of the closest one
             foreach (Hittable obj in objs) {
-                temp = obj.Hit(ray, t_min, closest);
+                temp = obj.Hit(ray, valid_t);
                 if (temp is not null) {
-                    closest = temp.t;
+                    valid_t.max = temp.t;
                     res = temp;
                 }
             }
