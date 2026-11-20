@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("RT1W")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+726b0766760461121763a3a51e8e513e33b549ee")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+23428f2caa09d1e3e3d76ed47ba6f25c328f8a73")]
 [assembly: System.Reflection.AssemblyProductAttribute("RT1W")]
 [assembly: System.Reflection.AssemblyTitleAttribute("RT1W")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

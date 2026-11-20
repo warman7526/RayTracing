@@ -27,6 +27,8 @@ namespace RT1W
         public bool Contains(double value) { return min <= value && value <= max; }
         public bool Surrounds(double value) { return min < value && value < max; }
 
+        public double Clamp(double value) { return min > value ? min : (max < value ? max : value); }
+
         public static Interval empty = new Interval(double.PositiveInfinity, double.NegativeInfinity);
         public static Interval universe = new Interval();
     }

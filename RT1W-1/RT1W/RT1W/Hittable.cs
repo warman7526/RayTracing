@@ -15,6 +15,7 @@ namespace RT1W
     public class HitRecord{
         public Vec3 point;
         public Vec3 normal;
+        public Material material;
         public double t;
         public bool frontFace;
 

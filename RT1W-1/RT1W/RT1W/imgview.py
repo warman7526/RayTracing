@@ -1,6 +1,6 @@
 import pygame
 
-TARGET = f"./bin/Debug/net10.0/res/{input("imgname>>")}.ppm"
+TARGET = f"./res/{input("imgname>>")}.ppm"
 SCALE = 1
 
 with open(TARGET,"r") as f:
@@ -27,7 +27,11 @@ def redraw():
     for index,col in enumerate(PIXELS):
         x = (index % WIDTH) * SCALE
         y = (index // WIDTH) * SCALE
-        pygame.draw.rect(screen,col,pygame.Rect(x,y,int(SCALE+0.99),int(SCALE+0.99)))
+        try:
+            pygame.draw.rect(screen,col,pygame.Rect(x,y,int(SCALE+0.99),int(SCALE+0.99)))
+        except Exception as e:
+            print(f"Failed to draw pixel {index} as ({col})")
+            raise e
     pygame.display.flip()
 
 redraw()

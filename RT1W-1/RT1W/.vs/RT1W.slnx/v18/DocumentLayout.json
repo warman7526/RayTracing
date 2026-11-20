@@ -3,32 +3,44 @@
   "WorkspaceRootPath": "C:\\Users\\harry\\OneDrive - University of Edinburgh\\Year1\\RayTracing\\RT1W-1\\RT1W\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{E7AB8A01-441F-0CD1-8198-E73A32AE6CCE}|RT1W\\RT1W.csproj|c:\\users\\harry\\onedrive - university of edinburgh\\year1\\raytracing\\rt1w-1\\rt1w\\rt1w\\camera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7AB8A01-441F-0CD1-8198-E73A32AE6CCE}|RT1W\\RT1W.csproj|solutionrelative:rt1w\\camera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7AB8A01-441F-0CD1-8198-E73A32AE6CCE}|RT1W\\RT1W.csproj|c:\\users\\harry\\onedrive - university of edinburgh\\year1\\raytracing\\rt1w-1\\rt1w\\rt1w\\material.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7AB8A01-441F-0CD1-8198-E73A32AE6CCE}|RT1W\\RT1W.csproj|solutionrelative:rt1w\\material.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{E7AB8A01-441F-0CD1-8198-E73A32AE6CCE}|RT1W\\RT1W.csproj|c:\\users\\harry\\onedrive - university of edinburgh\\year1\\raytracing\\rt1w-1\\rt1w\\rt1w\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E7AB8A01-441F-0CD1-8198-E73A32AE6CCE}|RT1W\\RT1W.csproj|solutionrelative:rt1w\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E7AB8A01-441F-0CD1-8198-E73A32AE6CCE}|RT1W\\RT1W.csproj|c:\\users\\harry\\onedrive - university of edinburgh\\year1\\raytracing\\rt1w-1\\rt1w\\rt1w\\sphere.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E7AB8A01-441F-0CD1-8198-E73A32AE6CCE}|RT1W\\RT1W.csproj|solutionrelative:rt1w\\sphere.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E7AB8A01-441F-0CD1-8198-E73A32AE6CCE}|RT1W\\RT1W.csproj|c:\\users\\harry\\onedrive - university of edinburgh\\year1\\raytracing\\rt1w-1\\rt1w\\rt1w\\vec3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E7AB8A01-441F-0CD1-8198-E73A32AE6CCE}|RT1W\\RT1W.csproj|solutionrelative:rt1w\\vec3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E7AB8A01-441F-0CD1-8198-E73A32AE6CCE}|RT1W\\RT1W.csproj|c:\\users\\harry\\onedrive - university of edinburgh\\year1\\raytracing\\rt1w-1\\rt1w\\rt1w\\interval.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E7AB8A01-441F-0CD1-8198-E73A32AE6CCE}|RT1W\\RT1W.csproj|solutionrelative:rt1w\\interval.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E7AB8A01-441F-0CD1-8198-E73A32AE6CCE}|RT1W\\RT1W.csproj|c:\\users\\harry\\onedrive - university of edinburgh\\year1\\raytracing\\rt1w-1\\rt1w\\rt1w\\hittablelist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E7AB8A01-441F-0CD1-8198-E73A32AE6CCE}|RT1W\\RT1W.csproj|solutionrelative:rt1w\\hittablelist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E7AB8A01-441F-0CD1-8198-E73A32AE6CCE}|RT1W\\RT1W.csproj|c:\\users\\harry\\onedrive - university of edinburgh\\year1\\raytracing\\rt1w-1\\rt1w\\rt1w\\hittable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E7AB8A01-441F-0CD1-8198-E73A32AE6CCE}|RT1W\\RT1W.csproj|solutionrelative:rt1w\\hittable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{E7AB8A01-441F-0CD1-8198-E73A32AE6CCE}|RT1W\\RT1W.csproj|c:\\users\\harry\\onedrive - university of edinburgh\\year1\\raytracing\\rt1w-1\\rt1w\\rt1w\\vec3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7AB8A01-441F-0CD1-8198-E73A32AE6CCE}|RT1W\\RT1W.csproj|solutionrelative:rt1w\\vec3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7AB8A01-441F-0CD1-8198-E73A32AE6CCE}|RT1W\\RT1W.csproj|c:\\users\\harry\\onedrive - university of edinburgh\\year1\\raytracing\\rt1w-1\\rt1w\\rt1w\\imgview.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{E7AB8A01-441F-0CD1-8198-E73A32AE6CCE}|RT1W\\RT1W.csproj|solutionrelative:rt1w\\imgview.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7AB8A01-441F-0CD1-8198-E73A32AE6CCE}|RT1W\\RT1W.csproj|c:\\users\\harry\\onedrive - university of edinburgh\\year1\\raytracing\\rt1w-1\\rt1w\\rt1w\\sphere.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7AB8A01-441F-0CD1-8198-E73A32AE6CCE}|RT1W\\RT1W.csproj|solutionrelative:rt1w\\sphere.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7AB8A01-441F-0CD1-8198-E73A32AE6CCE}|RT1W\\RT1W.csproj|c:\\users\\harry\\onedrive - university of edinburgh\\year1\\raytracing\\rt1w-1\\rt1w\\rt1w\\interval.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7AB8A01-441F-0CD1-8198-E73A32AE6CCE}|RT1W\\RT1W.csproj|solutionrelative:rt1w\\interval.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{E7AB8A01-441F-0CD1-8198-E73A32AE6CCE}|RT1W\\RT1W.csproj|c:\\users\\harry\\onedrive - university of edinburgh\\year1\\raytracing\\rt1w-1\\rt1w\\rt1w\\ray.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E7AB8A01-441F-0CD1-8198-E73A32AE6CCE}|RT1W\\RT1W.csproj|solutionrelative:rt1w\\ray.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7AB8A01-441F-0CD1-8198-E73A32AE6CCE}|RT1W\\RT1W.csproj|c:\\users\\harry\\onedrive - university of edinburgh\\year1\\raytracing\\rt1w-1\\rt1w\\rt1w\\hittablelist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7AB8A01-441F-0CD1-8198-E73A32AE6CCE}|RT1W\\RT1W.csproj|solutionrelative:rt1w\\hittablelist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,17 +50,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\harry\\OneDrive - University of Edinburgh\\Year1\\RayTracing\\RT1W-1\\RT1W\\RT1W\\Program.cs",
               "RelativeDocumentMoniker": "RT1W\\Program.cs",
               "ToolTip": "C:\\Users\\harry\\OneDrive - University of Edinburgh\\Year1\\RayTracing\\RT1W-1\\RT1W\\RT1W\\Program.cs",
               "RelativeToolTip": "RT1W\\Program.cs",
-              "ViewState": "AgIAAB8AAAAAAAAAAAAgwCsAAABJAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAowBwAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-11-08T19:44:45.729Z",
               "IsPinned": true,
@@ -57,13 +69,41 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
+              "Title": "Material.cs",
+              "DocumentMoniker": "C:\\Users\\harry\\OneDrive - University of Edinburgh\\Year1\\RayTracing\\RT1W-1\\RT1W\\RT1W\\Material.cs",
+              "RelativeDocumentMoniker": "RT1W\\Material.cs",
+              "ToolTip": "C:\\Users\\harry\\OneDrive - University of Edinburgh\\Year1\\RayTracing\\RT1W-1\\RT1W\\RT1W\\Material.cs",
+              "RelativeToolTip": "RT1W\\Material.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAADwvzAAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-20T12:42:11.976Z",
+              "EditorCaption": "",
+              "OwnerCaption": "%2"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Camera.cs",
+              "DocumentMoniker": "C:\\Users\\harry\\OneDrive - University of Edinburgh\\Year1\\RayTracing\\RT1W-1\\RT1W\\RT1W\\Camera.cs",
+              "RelativeDocumentMoniker": "RT1W\\Camera.cs",
+              "ToolTip": "C:\\Users\\harry\\OneDrive - University of Edinburgh\\Year1\\RayTracing\\RT1W-1\\RT1W\\RT1W\\Camera.cs",
+              "RelativeToolTip": "RT1W\\Camera.cs",
+              "ViewState": "AgIAADwAAAAAAAAAAAAcwEgAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-16T19:15:44.123Z",
+              "EditorCaption": "",
+              "OwnerCaption": "%2"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "Interval.cs",
               "DocumentMoniker": "C:\\Users\\harry\\OneDrive - University of Edinburgh\\Year1\\RayTracing\\RT1W-1\\RT1W\\RT1W\\Interval.cs",
               "RelativeDocumentMoniker": "RT1W\\Interval.cs",
               "ToolTip": "C:\\Users\\harry\\OneDrive - University of Edinburgh\\Year1\\RayTracing\\RT1W-1\\RT1W\\RT1W\\Interval.cs",
               "RelativeToolTip": "RT1W\\Interval.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAiAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAABjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-11-16T17:56:21.756Z",
               "EditorCaption": "",
@@ -71,13 +111,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 6,
               "Title": "Sphere.cs",
               "DocumentMoniker": "C:\\Users\\harry\\OneDrive - University of Edinburgh\\Year1\\RayTracing\\RT1W-1\\RT1W\\RT1W\\Sphere.cs",
               "RelativeDocumentMoniker": "RT1W\\Sphere.cs",
               "ToolTip": "C:\\Users\\harry\\OneDrive - University of Edinburgh\\Year1\\RayTracing\\RT1W-1\\RT1W\\RT1W\\Sphere.cs",
               "RelativeToolTip": "RT1W\\Sphere.cs",
-              "ViewState": "AgIAACAAAAAAAAAAAADwvyoAAAAkAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-11-16T15:37:41.866Z",
               "EditorCaption": "",
@@ -85,13 +125,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Vec3.cs",
               "DocumentMoniker": "C:\\Users\\harry\\OneDrive - University of Edinburgh\\Year1\\RayTracing\\RT1W-1\\RT1W\\RT1W\\Vec3.cs",
               "RelativeDocumentMoniker": "RT1W\\Vec3.cs",
               "ToolTip": "C:\\Users\\harry\\OneDrive - University of Edinburgh\\Year1\\RayTracing\\RT1W-1\\RT1W\\RT1W\\Vec3.cs",
               "RelativeToolTip": "RT1W\\Vec3.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAA+wB4AAAAzAAAAAAAAAA==",
+              "ViewState": "AgIAAIgAAAAAAAAAAAAIwKIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-11-08T17:01:25.821Z",
               "EditorCaption": "",
@@ -99,27 +139,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 9,
               "Title": "HittableList.cs",
               "DocumentMoniker": "C:\\Users\\harry\\OneDrive - University of Edinburgh\\Year1\\RayTracing\\RT1W-1\\RT1W\\RT1W\\HittableList.cs",
               "RelativeDocumentMoniker": "RT1W\\HittableList.cs",
               "ToolTip": "C:\\Users\\harry\\OneDrive - University of Edinburgh\\Year1\\RayTracing\\RT1W-1\\RT1W\\RT1W\\HittableList.cs",
               "RelativeToolTip": "RT1W\\HittableList.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAArAAAAAAAAAA==",
+              "ViewState": "AgIAACMAAAAAAAAAAADwvxoAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-11-16T15:52:54.753Z",
-              "EditorCaption": "",
               "OwnerCaption": "%2"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 3,
               "Title": "Hittable.cs",
               "DocumentMoniker": "C:\\Users\\harry\\OneDrive - University of Edinburgh\\Year1\\RayTracing\\RT1W-1\\RT1W\\RT1W\\Hittable.cs",
               "RelativeDocumentMoniker": "RT1W\\Hittable.cs",
               "ToolTip": "C:\\Users\\harry\\OneDrive - University of Edinburgh\\Year1\\RayTracing\\RT1W-1\\RT1W\\RT1W\\Hittable.cs",
               "RelativeToolTip": "RT1W\\Hittable.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAgwAgAAAA9AAAAAAAAAA==",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAgwBAAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-11-16T15:29:59.53Z",
               "EditorCaption": "",
@@ -127,15 +166,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "Ray.cs",
               "DocumentMoniker": "C:\\Users\\harry\\OneDrive - University of Edinburgh\\Year1\\RayTracing\\RT1W-1\\RT1W\\RT1W\\Ray.cs",
               "RelativeDocumentMoniker": "RT1W\\Ray.cs",
               "ToolTip": "C:\\Users\\harry\\OneDrive - University of Edinburgh\\Year1\\RayTracing\\RT1W-1\\RT1W\\RT1W\\Ray.cs",
               "RelativeToolTip": "RT1W\\Ray.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAgAAAAaAAAAAAAAAA==",
+              "ViewState": "AgIAABYAAAAAAAAAAAA0wAgAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-11-09T14:20:10.158Z",
+              "OwnerCaption": "%2"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "imgview.py",
+              "DocumentMoniker": "C:\\Users\\harry\\OneDrive - University of Edinburgh\\Year1\\RayTracing\\RT1W-1\\RT1W\\RT1W\\imgview.py",
+              "RelativeDocumentMoniker": "RT1W\\imgview.py",
+              "ToolTip": "C:\\Users\\harry\\OneDrive - University of Edinburgh\\Year1\\RayTracing\\RT1W-1\\RT1W\\RT1W\\imgview.py",
+              "RelativeToolTip": "RT1W\\imgview.py",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-11-20T11:47:00.938Z",
               "EditorCaption": "",
               "OwnerCaption": "%2"
             }

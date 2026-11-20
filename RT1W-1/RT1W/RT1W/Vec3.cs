@@ -26,7 +26,7 @@ namespace RT1W
             public static readonly Vec3 yellow = new Vec3(1, 1, 0);
             public static readonly Vec3 cyan = new Vec3(0, 1, 1);
             public static readonly Vec3 magenta = new Vec3(1, 0, 1);
-            public static readonly Vec3 sky = new Vec3(0.3, 0.55, 0.9);
+            public static readonly Vec3 sky = new Vec3(0.7, 0.85, 1);
 
             public static Vec3 FromNormal(Vec3 vec)
             {
@@ -151,13 +151,25 @@ namespace RT1W
             return this / this.length();
         }
 
-        public string PixelString()
+        public string PixelString(Func<double,double> transform)
         {
-            int ir = (int)(255.999 * x());
-            int ig = (int)(255.999 * y());
-            int ib = (int)(255.999 * z());
+            Interval intensity = new Interval(0, 1);
+            int ir = (int)(255.999 * intensity.Clamp(transform(x())));
+            int ig = (int)(255.999 * intensity.Clamp(transform(y())));
+            int ib = (int)(255.999 * intensity.Clamp(transform(z())));
 
             return $"{ir} {ig} {ib}";
+        }
+
+        public bool IsNearZero()
+        {
+            Interval near0 = new Interval(-1e-8, 1e-8);
+            return near0.Contains(x()) && near0.Contains(y()) && near0.Contains(z());
+        }
+
+        public Vec3 Reflect(Vec3 surfaceNormal)
+        {
+            return this - (2 * this.Dot(surfaceNormal) * surfaceNormal);
         }
 
         public static Vec3 Lerp(Vec3 v1, Vec3 v2, double t)
@@ -165,7 +177,53 @@ namespace RT1W
             return (v1 * t) + (v2 * (1 - t));
         }
 
+        public static Vec3 Random()
+        {
+            return new Vec3(Program.Random(), Program.Random(), Program.Random());
+        }
+
+        public static Vec3 Random(double min, double max)
+        {
+            return new Vec3(Program.Random(min,max), Program.Random(min, max), Program.Random(min, max));
+        }
+
+        public static Vec3 RandomUnitVector()
+        {
+            Interval accept = new Interval(1e-160, 1);
+            while (true)
+            {
+                Vec3 candidate = Vec3.Random();
+                if (accept.Contains(candidate.length_squared()))
+                {
+                    return candidate.UnitVector();
+                }
+            }
+        }
+
+        public static Vec3 RandomOnHemisphere(Vec3 normal)
+        {
+            Vec3 candidate = Vec3.RandomUnitVector();
+            if (candidate.Dot(normal) > 0) return candidate;
+            return -candidate;
+        }
+
     }
 
+    public static class Transform
+    {
+        public static double LinearToGamma(double x)
+        {
+            if (x > 0)
+            {
+                return Math.Sqrt(x);
+            }
+            return 0.0;
+        }
+
+        public static double Linear(double x)
+        {
+            return x;
+        }
+    }
    
 }

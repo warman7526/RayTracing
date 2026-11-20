@@ -9,10 +9,13 @@ namespace RT1W
         private Vec3 centre;
         private double radius;
 
-        public Sphere(Vec3 centre, double radius)
+        private Material material;
+
+        public Sphere(Vec3 centre, double radius, Material material)
         {
             this.centre = centre;
             this.radius = Math.Max(0,radius);
+            this.material = material;
         }
 
         public override HitRecord? Hit(Ray ray, Interval range)
@@ -50,6 +53,7 @@ namespace RT1W
             HitRecord res = new HitRecord();
             res.t = root;
             res.point = ray.At(root);
+            res.material = material;
 
             //caluclate local normal
             Vec3 outNormal = (res.point - this.centre) / this.radius;
